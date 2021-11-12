@@ -7,10 +7,13 @@ Inference the tap position of the mobile devices.
 The project is based on the Georgia State University Global Capstone Project.
 
 The demo app was developed with Flutter. 
+
 It simply save the snapshot of the 12-tapping zone's information. (Gyroscope, Accelerometer and Tapped Position Coordinate)
+
 The app will also send collected snapshot data to Firestore.
 
 By using those colledted data, we can build our inference model with small neural network. (Keras, Tensorflow 2.0)
+
 You may see how it actually works on the inference.ipynb file.
 
 ## Author
