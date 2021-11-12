@@ -6,7 +6,7 @@ Inference the tap position of the mobile devices.
 
 The project is based on the Georgia State University Global Capstone Project.
 
-The demo app was developed with Flutter. 
+The demo app was developed with Flutter. (tapping_zones dir.)
 
 It simply save the snapshot of the 12-tapping zone's information. (Gyroscope, Accelerometer and Tapped Position Coordinate)
 
