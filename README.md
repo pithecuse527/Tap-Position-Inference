@@ -28,4 +28,5 @@ Honggeun Ji
 
 ## Acknowledgements
 Dr. Yingshu Li (Professor, Department of Computer Science, Georgia State University)
+
 Chenyu Wang (Ph.D. Candidate, Department of Computer Science, Georgia State University)
