@@ -14,7 +14,7 @@ The app will also send collected snapshot data to Firestore.
 
 By using those colledted data, we can build our inference model with small neural network. (Keras, Tensorflow 2.0)
 
-You may see how it actually works on the inference.ipynb file.
+You may see how it actually works on the inference ipynb files.
 
 ## Author
 
