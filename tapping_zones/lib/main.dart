@@ -104,6 +104,18 @@ class _MyHomePageState extends State<MyHomePage> {
     initialize();
   }
 
+  SimpleComplementaryFilter() {
+    pitch = (gyroscope[0] / 50) * 0.01;
+    roll = (gyroscope[1] / 50) * 0.01;
+    double pitchAcc, rollAcc;
+
+    pitchAcc = atan2(accelerometer[1], accelerometer[2]) * 180 / pi;
+    pitch = pitch * 0.98 + pitchAcc * 0.02;
+
+    rollAcc = atan2(accelerometer[0], accelerometer[2]) * 180 / pi;
+    roll = roll * 0.98 + rollAcc * 0.02;
+  }
+
   _onTapDown(TapDownDetails details, int index) {
     var x = details.globalPosition.dx;
     var y = details.globalPosition.dy;
@@ -116,7 +128,7 @@ class _MyHomePageState extends State<MyHomePage> {
     //     accelerometer.toString() +
     //     " // " +
     //     gyroscope.toString());
-
+    SimpleComplementaryFilter();
     db.create(accelerometer, gyroscope, x, y, pitch, roll, index);
 
     setState(() {
