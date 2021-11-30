@@ -25,6 +25,10 @@ Honggeun Ji
 
 * 0.1
     * Initial Release without Flutter Codes
+ * 0.2
+    * First version with noisy sensor data
+ * 0.3
+    * Second version with sensor data fusion and noisy data
 
 ## Acknowledgements
 Dr. Yingshu Li (Professor, Department of Computer Science, Georgia State University)
