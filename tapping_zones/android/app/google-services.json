@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "178926252417",
+    "project_id": "sensor-data-b6f55",
+    "storage_bucket": "sensor-data-b6f55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178926252417:android:aef1980dbfab8af39af880",
+        "android_client_info": {
+          "package_name": "ji.project.flutter.flutter_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178926252417-f0mb9lk7thm127k4epb369hccgid1knd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYPIc6S_Ofqz4UxMnGkHXBlLN-iUIAIEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178926252417-f0mb9lk7thm127k4epb369hccgid1knd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

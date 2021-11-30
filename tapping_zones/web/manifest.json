@@ -1,6 +1,6 @@
 {
-    "name": "tapping_zones",
-    "short_name": "tapping_zones",
+    "name": "flutter_firebase",
+    "short_name": "flutter_firebase",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

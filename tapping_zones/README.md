@@ -1,4 +1,4 @@
-# tapping_zones
+# flutter_firebase
 
 A new Flutter project.
 
